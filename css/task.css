@@ -1,0 +1,163 @@
+*
+{
+    resize:both
+}
+body
+{
+    height: 2000px;
+    font-family: inherit;
+    position: relative;
+   overflow: auto;  
+}
+
+
+.backGround
+{
+    width: 75%;
+    height: 21%;
+    background-color: blue;
+    
+}
+.icon
+{
+    width: 40px;
+    height: 40px;
+}
+.whBack
+{
+    background-color: white;
+    position: relative;
+    width: 95%;
+    border: 3px solid orange;
+    border-radius: 20px;
+    height: 107%;
+    z-index: 9999999999;
+    
+}
+.whBack img
+{
+    position: absolute;
+    bottom: 0;
+    
+}
+.control
+{
+     width: 75%;
+    height: 5%;
+    background-color: aquamarine;
+    position: relative;
+}
+.iconAnswer
+{
+    width: 60px;
+    height: 50px;
+    position: absolute;
+    bottom: 10px;
+    
+}
+.myBtn
+{
+    font-weight: 700;
+    color: black;
+    font-size: 24;
+    border: 3px solid #09c;
+    border-radius: 10px;
+    
+}
+
+.myBtn:hover
+{
+    background-color: #09c;
+    color:white;
+    
+}
+
+.buttons
+{
+   
+    position: absolute;
+    top: 0;
+    right: 30%;
+    z-index: 999999999999999999;
+    
+}
+.parent
+{
+    position: relative;
+}
+
+.lightBox
+{
+    background-color: rgba(0,0,0,0.8);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 9999999999999999999999999;
+    display: none;
+}
+
+.ligtBoxImg
+{
+    width: 50%;
+    height: 70%;
+    background-image: url(../image/dummy.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    z-index: 99999999999999999999999999999;
+     border: 3px solid orange;
+    border-radius: 20px;
+ 
+}
+
+
+#close1 ,#close2
+{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+     
+    
+}
+.helpBox
+{
+    background-color: rgba(0,0,0,0.8);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 9999999999999999999999999;
+    display: none;
+}
+
+.helpBoxImg
+{
+    width: 50%;
+    height: 50%;
+    background-color: white;
+    background-size: 100% 100%;
+    position: relative;
+    z-index: 99999999999999999999999999999;
+     border: 3px solid orange;
+    border-radius: 20px;
+    
+}
+.correctAnswer
+{
+    
+    position: absolute;
+    bottom: 10%;
+    right: 25%;
+    z-index: 999999999999999999;
+    
+    
+
+}
+.fa-check
+{
+    color: greenyellow;
+    font-size: 24px
+}
+
